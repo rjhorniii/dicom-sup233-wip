@@ -1,5 +1,7 @@
 # dicom-sup233-wip
 
+This repository is for work in progress on DICOM Sup233.  It is not a substitute for the regular FTP.  It's a convenience for editor, co-authors, and other contributors to the WIP.  The FTP directory will continue to be used for official document reviews.
+
 ## Procedures for this repository
 
 1. Git based delta can be used for puml, md, adoc, html, etc. documents that are line oriented text only files.  Versioned files is also permitted.
