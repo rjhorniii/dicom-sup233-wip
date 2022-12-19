@@ -7,10 +7,11 @@ Add 3 tables for mapping:
 3. FHIR to DICOM (help from WG-20)
 
 **Items to Discuss in WG-06**
-1. Should this include comprehensive mapping tables without the example content, example content only, or both. Current tables are a mix of example content + mapping to most of the attributes proposed in Sup233.
-2. Confirm the content of DICOM to DICOM mapping. DICOM MWL to DICOM Object, or something else? Seems IHE-ish
-3. Should the v2 examples be included (lean towards "no")
-4. Suggest eliminating CDA example completely (ref. Carroll: "gender is not necessary to include in the report" vs HL7 WG approach of including social history, etc...)
+1. Should this include comprehensive mapping tables without the example content, example content only, or both. Current tables are a mix of example content + mapping for most of the attributes proposed in Sup233. 
+2. Confirm the content of DICOM to DICOM mapping (see TODO). DICOM MWL to DICOM Object, or something else? 
+3. Is there a preferred format for mapping? There are no good v2 examples in Parts 17, 20 or 21. Expecting that the mapping will be in Part 17.
+4. Should the v2 examples be included (lean towards "no")
+5. Suggest eliminating CDA example completely (ref. Carroll et al: "gender is not necessary to include in the report" vs HL7 WG approach of including social history, etc...)
 
 ## Introduction
 
