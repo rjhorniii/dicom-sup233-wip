@@ -1,6 +1,6 @@
 # DICOM® PET scan Use Case 
 **TODO**
-Streamline storyboard based on SWF.b. Ass reference to SWF.b vol 1
+Streamline storyboard based on SWF.b. add reference to SWF.b vol 1
 Add 3 tables for mapping:
 1. DICOM to DICOM 
 2. v2 to DICOM
