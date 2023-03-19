@@ -1,0 +1,58 @@
+
+@startjson
+{
+	"Gender Identity Sequence": {
+	   "each item" : {
+	   "Gender Code Sequence" : {"CodedValueType" : "DCID CIDxxx1 Person Gender"},
+	   "Start DateTime" : "date-time",
+	   "Stop DateTime" : "date-time",
+	   "Gender Comment": "text"
+	   }
+	   },
+	"Sex Parameters for Clinical Use Sequence" : {
+	   "each item" : {
+	   "SPCU Code Sequence" : {
+	   	"CodedValueType" : "DCID CIDxxx2 Sex Parameters for Clinical Use"
+		},
+	   "Start DateTime" : "date-time",
+	   "Stop DateTime" : "date-time",
+	   "SPCU Comment": "text",
+	   "SPCU Reference": "URI"
+	   }
+	   },
+	"Person Names to Use Sequence": {
+	   "each item" : {
+	   "Name to use" : "text",
+	   "Start DateTime" : "date-time",
+	   "Stop DateTime" : "date-time",
+	   "Name to use Comment": "text"
+	   }
+	   },
+	"Recorded Sex or Gender Sequence" : {
+	    "each item" : {
+	    "RSG TypeCode" : {
+	    	 "CodedValueType" : "DCID TBD, will match HL7"
+		 },
+  	    "Recorded Value" : "text",
+            "Start DateTime" : "date-time",
+	    "Stop DateTime" : "date-time",
+	    "Jurisdiction" : "text",
+	    "Source Field name" : "text",
+	    "Source Document Reference" : "text"
+	    }
+	   },
+	"Third Person Pronoun Code Sequence" : {
+	    "each item" : {
+	    "Pronoun Code Sequence" : {
+	    	 "CodedValueTYpe" : "DCID CIDxxx4 Third Person Pronouns"
+		 },
+            "Start DateTime" : "date-time",
+	    "Stop DateTime" : "date-time",
+	    "Pronoun Comment" : "text"
+	    }
+	    }
+}
+@endjson
+
+
+	   
